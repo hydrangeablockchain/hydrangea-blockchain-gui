@@ -38,7 +38,7 @@ export default function PlotOverviewHero() {
               }
               <Link
                 target="_blank"
-                href="https://github.com/Hydrangea-Network/hydrangea-blockchain/wiki/Network-Architecture"
+                href="https://github.com/HydrangeaBlockchain/hydrangea-blockchain/wiki/Network-Architecture"
               >
                 Learn more
               </Link>

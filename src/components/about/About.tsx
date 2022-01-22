@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://hydrangea.net';
+const url = 'https://http://hydrangea.website/';
 
 type Props = {
   version: string;
@@ -144,7 +144,7 @@ export default function About(props: Props) {
         </VersionsTable>
 
         <BugReport
-          href="https://github.com/Hydrangea-Network/hydrangea-blockchain/issues"
+          href="https://github.com/HydrangeaBlockchain/hydrangea-blockchain/issues"
           target="_blank"
         >
           Report an issue

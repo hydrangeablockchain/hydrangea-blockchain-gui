@@ -15,7 +15,7 @@ msgstr ""
 "X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ak\n"
-"X-Crowdin-File: /[Hydrangea-Network.hydrangea-blockchain-gui] main/src/locales/en-US/messages.po\n"
+"X-Crowdin-File: /[HydrangeaBlockchain.hydrangea-blockchain-gui] main/src/locales/en-US/messages.po\n"
 "X-Crowdin-File-ID: 118\n"
 
 #: src/components/plot/add/PlotAddNFT.tsx:62

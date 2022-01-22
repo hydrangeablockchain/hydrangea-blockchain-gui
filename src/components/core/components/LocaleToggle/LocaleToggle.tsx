@@ -43,7 +43,7 @@ export default function LocaleToggle(props: Props) {
     handleClose();
 
     openExternal(
-      'https://github.com/Hydrangea-Network/hydrangea-blockchain-gui/tree/main/src/locales/README.md',
+      'https://github.com/HydrangeaBlockchain/hydrangea-blockchain-gui/tree/main/src/locales/README.md',
     );
   }
 

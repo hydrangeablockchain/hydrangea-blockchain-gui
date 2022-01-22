@@ -80,7 +80,7 @@ export default function PlotAddChooseSize(props: Props) {
           }
           <Link
             target="_blank"
-            href="https://github.com/Hydrangea-Network/hydrangea-blockchain/wiki/k-sizes"
+            href="https://github.com/HydrangeaBlockchain/hydrangea-blockchain/wiki/k-sizes"
           >
             Learn more
           </Link>

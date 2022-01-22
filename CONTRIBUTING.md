@@ -6,10 +6,10 @@ We are happy that you are taking a look at the code for Hydrangea, a proof of sp
 A lot of fascinating new cryptography and blockchain concepts are used and implemented here.
 This repo includes the code for the Hydrangea GUI in electron/react and TypeScript.
 
-It is an input to the [hydrangea-blockchain](https://github.com/Hydrangea-Network/hydrangea-blockchain) repository which also includes a verifiable delay function implementation that it imports from the [chiavdf repo](https://github.com/Hydrangea-Network/chiavdf) (in c/c++), and a proof of space implementation that it imports from the [chiapos repo](https://github.com/Hydrangea-Network/chiapos). BLS signatures are imported from the [bls-signatures repo](https://github.com/Hydrangea-Network/bls-signatures) as blspy. There is an additional dependency on the [chiabip158 repo](https://github.com/Hydrangea-Network/chiabip158).
+It is an input to the [hydrangea-blockchain](https://github.com/HydrangeaBlockchain/hydrangea-blockchain) repository which also includes a verifiable delay function implementation that it imports from the [chiavdf repo](https://github.com/Chia-Network/chiavdf) (in c/c++), and a proof of space implementation that it imports from the [chiapos repo](https://github.com/Chia-Network/chiapos). BLS signatures are imported from the [bls-signatures repo](https://github.com/Chia-Network/bls-signatures) as blspy. There is an additional dependency on the [chiabip158 repo](https://github.com/Chia-Network/chiabip158).
 For major platforms, binary and source wheels are shipped to PyPI from each dependent repo and then hydrangea-blockchain can pip install those from PyPI or they can be prepackaged as is done for the Windows and MacOS installer. On unsupported platforms, pip will fall back to the source distributions to be compiled locally.
 
-If you want to learn more about this project, read the [wiki](https://github.com/Hydrangea-Network/hydrangea-blockchain/wiki), or check out the [green paper](https://www.hydrangea.net/assets/HydrangeaGreenPaper.pdf).
+If you want to learn more about this project, read the [wiki](https://github.com/HydrangeaBlockchain/hydrangea-blockchain/wiki), or check out the [green paper](https://www.hydrangea.website/assets/HydrangeaGreenPaper.pdf).
 
 ## Contributions
 

@@ -374,7 +374,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Hydrangea Blockchain Wiki' }),
             click: () => {
               openExternal(
-                'https://github.com/Hydrangea-Network/hydrangea-blockchain/wiki',
+                'https://github.com/HydrangeaBlockchain/hydrangea-blockchain/wiki',
               );
             },
           },
@@ -382,7 +382,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
             click: () => {
               openExternal(
-                'https://github.com/Hydrangea-Network/hydrangea-blockchain/wiki/FAQ',
+                'https://github.com/HydrangeaBlockchain/hydrangea-blockchain/wiki/FAQ',
               );
             },
           },
@@ -390,7 +390,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Release Notes' }),
             click: () => {
               openExternal(
-                'https://github.com/Hydrangea-Network/hydrangea-blockchain/releases',
+                'https://github.com/HydrangeaBlockchain/hydrangea-blockchain/releases',
               );
             },
           },
@@ -398,7 +398,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Contribute on GitHub' }),
             click: () => {
               openExternal(
-                'https://github.com/Hydrangea-Network/hydrangea-blockchain/blob/main/CONTRIBUTING.md',
+                'https://github.com/HydrangeaBlockchain/hydrangea-blockchain/blob/main/CONTRIBUTING.md',
               );
             },
           },
@@ -409,7 +409,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
             click: () => {
               openExternal(
-                'https://github.com/Hydrangea-Network/hydrangea-blockchain/issues',
+                'https://github.com/HydrangeaBlockchain/hydrangea-blockchain/issues',
               );
             },
           },
