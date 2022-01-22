@@ -7,7 +7,7 @@ import {
   AlertDialog,
   Flex,
   Card,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   Grid,
   Typography,

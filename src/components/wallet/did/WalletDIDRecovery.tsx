@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router';
 import { useDispatch, useSelector } from 'react-redux';
-import { AlertDialog, Back, ButtonLoading, Card, Flex, Dropzone } from '@chia/core';
+import { AlertDialog, Back, ButtonLoading, Card, Flex, Dropzone } from '@hydrangea/core';
 import { Trans } from '@lingui/macro';
 import {
   Typography,

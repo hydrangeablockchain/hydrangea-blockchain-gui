@@ -11,7 +11,7 @@ import {
   Typography,
 } from '@material-ui/core';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, Flex, TooltipIcon } from '@chia/core';
+import { AlertDialog, Flex, TooltipIcon } from '@hydrangea/core';
 import { openDialog } from '../../modules/dialog';
 import { RootState } from 'modules/rootReducer';
 import { remove_keyring_passphrase_action } from '../../modules/message';

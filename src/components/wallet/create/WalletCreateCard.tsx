@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { Card, Flex } from '@chia/core';
+import { Card, Flex } from '@hydrangea/core';
 import { Typography } from '@material-ui/core';
 import styled from 'styled-components';
 

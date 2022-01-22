@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useWatch } from 'react-hook-form';
 import { t, Trans } from '@lingui/macro';
-import { CardStep, Select } from '@chia/core';
+import { CardStep, Select } from '@hydrangea/core';
 import {
   FormControl,
   FormHelperText,
@@ -95,8 +95,8 @@ export default function PlotAddChoosePlotter(props: Props) {
       <Typography variant="subtitle1">
         <Trans>
             Depending on your system configuration, you may find that an alternative plotter
-            produces plots faster than the default Chia Proof of Space plotter. If unsure,
-            use the default Chia Proof of Space plotter.
+            produces plots faster than the default Hydrangea Proof of Space plotter. If unsure,
+            use the default Hydrangea Proof of Space plotter.
         </Trans>
       </Typography>
 

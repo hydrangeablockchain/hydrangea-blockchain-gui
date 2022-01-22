@@ -12,7 +12,7 @@ const convert = (amount, from, to) => {
   return Number.parseFloat(amountInFromUnit.div(units.getUnit(to)));
 };
 
-class Chia {
+class Hydrangea {
   constructor(value, unit) {
     this._value = value;
     this._unit = unit;
@@ -73,42 +73,42 @@ class Chia {
   }
 }
 
-export const chia_formatter = (value, unit) => new Chia(value, unit);
+export const hydrangea_formatter = (value, unit) => new Hydrangea(value, unit);
 
-chia_formatter.convert = convert;
-chia_formatter.setDisplay = units.setDisplay;
-chia_formatter.setUnit = units.setUnit;
-chia_formatter.getUnit = units.getUnit;
-chia_formatter.setFiat = (currency, rate, display = null) => {
+hydrangea_formatter.convert = convert;
+hydrangea_formatter.setDisplay = units.setDisplay;
+hydrangea_formatter.setUnit = units.setUnit;
+hydrangea_formatter.getUnit = units.getUnit;
+hydrangea_formatter.setFiat = (currency, rate, display = null) => {
   units.setUnit(currency, 1 / rate, display);
 };
 
-export const mojo_to_chia = (mojo) => {
-  return chia_formatter(Number.parseInt(mojo), 'mojo').to('chia').value();
+export const mojo_to_hydrangea = (mojo) => {
+  return hydrangea_formatter(Number.parseInt(mojo), 'mojo').to('hydrangea').value();
 };
 
-export const chia_to_mojo = (chia) => {
-  return chia_formatter(Number.parseFloat(Number(chia)), 'chia')
+export const hydrangea_to_mojo = (hydrangea) => {
+  return hydrangea_formatter(Number.parseFloat(Number(hydrangea)), 'hydrangea')
     .to('mojo')
     .value();
 };
 
-export const mojo_to_chia_string = (mojo) => {
-  return chia_formatter(Number(mojo), 'mojo').to('chia').toString();
+export const mojo_to_hydrangea_string = (mojo) => {
+  return hydrangea_formatter(Number(mojo), 'mojo').to('hydrangea').toString();
 };
 
 export const mojo_to_colouredcoin = (mojo) => {
-  return chia_formatter(Number.parseInt(mojo), 'mojo')
+  return hydrangea_formatter(Number.parseInt(mojo), 'mojo')
     .to('colouredcoin')
     .value();
 };
 
 export const colouredcoin_to_mojo = (colouredcoin) => {
-  return chia_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
+  return hydrangea_formatter(Number.parseFloat(Number(colouredcoin)), 'colouredcoin')
     .to('mojo')
     .value();
 };
 
 export const mojo_to_colouredcoin_string = (mojo) => {
-  return chia_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
+  return hydrangea_formatter(Number(mojo), 'mojo').to('colouredcoin').toString();
 };
